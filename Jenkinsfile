@@ -11,7 +11,6 @@ pipeline {
                   pwd
                   ls -la
                   '''
-                  sh "python --version"
                   echo "End of Stage build"
               }
           }
