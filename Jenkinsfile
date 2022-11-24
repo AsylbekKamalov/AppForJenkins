@@ -11,6 +11,7 @@ pipeline {
                   pwd
                   ls -la
                   '''
+                  echo "Hello Jenkins"
                   echo "End of Stage build"
               }
           }
